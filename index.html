@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Amplification Institute — Something Is Coming</title>
+  <meta name="description" content="Amplification Institute is tuning the next signal. Something is coming. Email us if you'd like to get in touch.">
+  <meta name="author" content="Amplification Institute Inc.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://amplificationinstitute.com">
+  <meta property="og:title" content="Amplification Institute — Something Is Coming">
+  <meta property="og:description" content="Amplification Institute is tuning the next signal. Something is coming. Email us if you'd like to get in touch.">
+  <meta name="theme-color" content="#faf8f5">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --ink: #1a2420;
+      --muted: rgba(26, 36, 32, 0.6);
+      --faint: rgba(26, 36, 32, 0.38);
+      --teal: #1a7a78;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "DM Sans", -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      line-height: 1.6;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .glow {
+      position: fixed;
+      right: -15vw;
+      top: 20vh;
+      width: 60vw;
+      height: 60vw;
+      background: radial-gradient(circle, rgba(26, 122, 120, 0.14), transparent 65%);
+      pointer-events: none;
+    }
+    main { max-width: 36rem; position: relative; }
+    .wordmark {
+      font-size: 0.8rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 300;
+      font-size: clamp(2.4rem, 7vw, 3.6rem);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--teal); }
+    p { color: var(--muted); margin-bottom: 1.25rem; }
+    .btn {
+      display: inline-block;
+      background: var(--teal);
+      color: var(--bg);
+      font-weight: 500;
+      text-decoration: none;
+      padding: 0.85rem 2.2rem;
+      border-radius: 999px;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+    .btn:hover { background: #156361; }
+    .fallback { font-size: 0.85rem; color: var(--faint); }
+    .fallback a { color: var(--teal); }
+    footer {
+      margin-top: 3.5rem;
+      font-size: 0.8rem;
+      color: var(--faint);
+    }
+  </style>
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <main>
+    <div class="wordmark">Amplification Institute</div>
+    <h1>Something is <em>coming</em>.</h1>
+    <p>We're tuning the next signal. Cut the noise — we'll amplify it when it's ready.</p>
+    <p>Want to reach us in the meantime?</p>
+    <a class="btn" href="mailto:marie.monet@amplificationinstitute.com?subject=Amplification%20Institute%20inquiry">Email us</a>
+    <p class="fallback">Button not working? Write to <a href="mailto:marie.monet@amplificationinstitute.com">marie.monet@amplificationinstitute.com</a></p>
+    <footer>© 2026 Amplification Institute Inc. · Greater Orlando, Florida</footer>
+  </main>
+</body>
+</html>
